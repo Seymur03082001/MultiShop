@@ -10515,11 +10515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ca.r215.07\\Desktop\\MultiShop\\MultiShop\\MultiShop.csproj",
+      "projectUniqueName": "C:\\Users\\ca.r215.07\\Desktop\\Backend\\MultiShop\\MultiShop\\MultiShop.csproj",
       "projectName": "MultiShop",
-      "projectPath": "C:\\Users\\ca.r215.07\\Desktop\\MultiShop\\MultiShop\\MultiShop.csproj",
+      "projectPath": "C:\\Users\\ca.r215.07\\Desktop\\Backend\\MultiShop\\MultiShop\\MultiShop.csproj",
       "packagesPath": "C:\\Users\\ca.r215.07\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ca.r215.07\\Desktop\\MultiShop\\MultiShop\\obj\\",
+      "outputPath": "C:\\Users\\ca.r215.07\\Desktop\\Backend\\MultiShop\\MultiShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ca.r215.07\\AppData\\Roaming\\NuGet\\NuGet.Config",

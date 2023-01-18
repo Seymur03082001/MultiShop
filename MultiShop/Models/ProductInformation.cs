@@ -4,7 +4,8 @@ namespace MultiShop.Models
 {
     public class ProductInformation:BaseEntity
     {
-        public int ProductId { get; set; }
-        public Product Product { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public ICollection<Product>? Products { get; set; }
     }
 }

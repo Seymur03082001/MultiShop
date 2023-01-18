@@ -9,57 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MultiShop
 build_property.RootNamespace = MultiShop
-build_property.ProjectDir = C:\Users\ca.r215.07\Desktop\MultiShop\MultiShop\
+build_property.ProjectDir = C:\Users\ca.r215.07\Desktop\Backend\MultiShop\MultiShop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ca.r215.07\Desktop\MultiShop\MultiShop
+build_property.MSBuildProjectDirectory = C:\Users\ca.r215.07\Desktop\Backend\MultiShop\MultiShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Areas/Areas/Views/Dashboard/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYXNcVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Areas/Manage/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Areas/Areas/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYXNcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Areas/Manage/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Areas/Areas/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYXNcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Areas/Manage/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Areas/Areas/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYXNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Areas/Manage/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Areas/Areas/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYXNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Areas/Manage/Views/Slider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNsaWRlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Views/Home/Cart.cshtml]
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Areas/Manage/Views/Slider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNsaWRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Areas/Manage/Views/Slider/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNsaWRlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Areas/Manage/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Areas/Manage/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Views/Home/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Views/Home/Index.cshtml]
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Views/Home/Shop.cshtml]
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Views/Home/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Views/Home/ShopDetail.cshtml]
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Views/Home/ShopDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Views/Shared/_Layout.cshtml]
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Views/_ViewImports.cshtml]
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca.r215.07/Desktop/MultiShop/MultiShop/Views/_ViewStart.cshtml]
+[C:/Users/ca.r215.07/Desktop/Backend/MultiShop/MultiShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

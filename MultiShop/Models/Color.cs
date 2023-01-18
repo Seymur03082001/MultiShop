@@ -4,7 +4,7 @@ namespace MultiShop.Models
 {
     public class Color:BaseEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
+        public ICollection<ProductColor>? ProductColors { get; set; }
     }
 }

@@ -1,12 +1,10 @@
-﻿using MultiShop.Models.Base;
-
-namespace MultiShop.Models
+﻿namespace MultiShop.ViewModels.Slider
 {
-    public class Slider:BaseEntity
+    public class CreateSliderVM
     {
         public string PrimaryTitle { get; set; }
         public string SecondaryTitle { get; set; }
-        public string ImageUrl { get; set; }
+        public IFormFile Image { get; set; }
         public int Order { get; set; }
     }
 }
