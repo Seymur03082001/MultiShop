@@ -1,6 +1,8 @@
-﻿namespace MultiShop.Models
+﻿using MultiShop.Models.Base;
+
+namespace MultiShop.Models
 {
-    public class ProductColor
+    public class ProductColor:BaseEntity
     {
         public int ColorId { get; set; }
         public Color Color { get; set; }

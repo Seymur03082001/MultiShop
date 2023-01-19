@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MultiShop.ViewModels.Category;
 
 namespace MultiShop.Areas.Areas.Controllers
 {
@@ -6,15 +7,6 @@ namespace MultiShop.Areas.Areas.Controllers
     public class CategoryController : Controller
     {
         public IActionResult Index()
-        {
-            return View();
-        }
-        public IActionResult Create()
-        {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Create(CreateCategoryVm)
         {
             return View();
         }

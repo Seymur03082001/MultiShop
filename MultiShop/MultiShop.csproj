@@ -21,4 +21,6 @@
     <Folder Include="Areas\Manage\Models\" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="https://json.schemastore.org/appveyor.json" /></VisualStudio></ProjectExtensions>
+
 </Project>

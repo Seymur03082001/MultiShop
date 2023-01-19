@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model ICollection<Discount>
+<div class="container">
+    <a class="btn btn-primary my-3" asp-action="Create">Create</a>
+    <table class="table table-bordered table-responsive">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Percentage</th>
+                <th colspan="2">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Discount discount in Model ?? new List<Discount>())
+            {
+                <tr>
+                    <td>@discount.Name</td>
+                    <td>@discount.Percentage</td>
+                    <td><a asp-action="Update" asp-route-id="@discount.Id">Update</a></td>
+                    <td><a asp-action="Delete" asp-route-id="@discount.Id">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

@@ -5,7 +5,7 @@ using MultiShop.Models;
 namespace MultiShop.Areas.Manage.Controllers
 {
     [Area("Manage")]
-    public class SliderController:Controller
+    public class SliderController : Controller
     {
         readonly AppDbContext _context;
 
@@ -13,18 +13,18 @@ namespace MultiShop.Areas.Manage.Controllers
         {
             _context = context;
         }
-        public IActionResult Index() 
-        { 
+        public IActionResult Index()
+        {
             return View(_context.Sliders.ToList());
         }
-        public IActionResult Create() 
-        { 
+        public IActionResult Create()
+        {
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Slider slider) 
-        { 
-             if(!ModelState.IsValid) return View();
+        public IActionResult Create(Slider slider)
+        {
+            if (!ModelState.IsValid) return View();
             _context.Sliders.Add(slider);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
@@ -32,19 +32,19 @@ namespace MultiShop.Areas.Manage.Controllers
         public IActionResult Delete(int id)
         {
             Slider slider = _context.Sliders.Find();
-            if(slider != null) return NotFound();
+            if (slider != null) return NotFound();
             _context.Sliders.Remove(slider);
             _context.SaveChanges();
             return RedirectToAction(nameof(Delete));
         }
         public IActionResult Update(int? id)
         {
-            if(id == null || id == 0) return BadRequest();
+            if (id == null || id == 0) return BadRequest();
             Slider slider = _context.Sliders.Find(id);
             if (slider is null) return NotFound();
             return View(slider);
         }
-        public IActionResult Update(int id,Slider slider)
+        public IActionResult Update(int id, Slider slider)
         {
             if (id == null || id == 0 || id != slider.Id) return BadRequest();
             if (!ModelState.IsValid) return View();

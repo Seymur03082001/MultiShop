@@ -1,6 +1,8 @@
-﻿namespace MultiShop.Models
+﻿using MultiShop.Models.Base;
+
+namespace MultiShop.Models
 {
-    public class ProductSize
+    public class ProductSize:BaseEntity
     {
         public int SizeId { get; set; }
         public Size Size { get; set; }
